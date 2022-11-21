@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+	overflow-x:visible;
+}
+
+.encabezado {
+	background-color: rgb(143, 143, 140);
+	position: sticky;
+	top: 0px;
+}
+.encabezado img {
+	padding: 20px;
+}
+nav {
+	position: relative;
+   	bottom: 60px;
+	left: 500px;
+}
+
+a {
+    display: ruby-text-container;
+    width: 10%;
+    position: sticky;
+    font-size: 2rem;
+    margin: 1rem;
+}
+.inicio {
+    background-image: url(../asset/inicio.jpeg);
+       height: 500px;
+       background-position: 0%;     
+       background-size: contain;  
+     
+   
+  
+}
+.inicio h1 {
+    font-size: 4rem; 
+	text-align: center; 
+	background-color: rgba(255,255,255, 0.7);
+	padding-top: 60px;
+	margin-top: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.inicio p {
+    font-size: 2.5rem; 
+	text-align: center; 
+	background-color: rgba(255,255,255, 0.7);
+	text-transform: uppercase;
+	padding: 20px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+
+.contacto h4{
+    font-size: xx-large;
+    text-align: center;
+    background-color: rgb(91, 91, 100);
+    padding: 10px;
+    font-style: inherit;
+    
+}
+
+.parametro {width: 100%; height: 100%;}
+.datos{
+    width: 505px;
+    height: 200px;
+    background-color: rgb(91, 91, 100);
+    font-style:normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    
+}
+.casillero{
+    width: 505px;
+    height: 300px;
+    background-color: rgb(91, 91, 100);
+    font-style:normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+   position: static;
+   left: 500px;
+
+    
+}
+.Empresa{ 
+    width:  505px;
+    height: auto;
+    background-color: bisque;
+    font-family: sans-serif;
+    font-size: x-large;
+    position: static;
+
+
+}
+.imagen{
+    position:sticky
+}
+
+.Consultoria{
+    width: 500px;
+    height: 300px;
+    background-color: bisque;
+    position: static;
+    
+}
+.Tercerizacion{
+    width: 500px;
+    height: 300px;
+    background-color: bisque;
+    position: static;
+    
+}
+.kpi{
+    width: 500px;
+    height: 300px;
+    background-color: bisque;
+    position: static;
+    
+}
+.Capacitaciones{
+    width: 500px;
+    height: 300px;
+    background-color: bisque;
+    position:relative  
+      
+}
+.footer {
+	background-color: rgb(143, 143, 140);
+	position: sticky;
+	top: 0px;
+}
+
+
+
